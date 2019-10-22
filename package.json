@@ -22,10 +22,10 @@
   "dependencies": {
     "eslint": "^4.11.0",
     "eyes": "^0.1.8",
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.19.4"
   },
   "devDependencies": {
-    "tap-spec": "^4.1.1",
+    "tap-spec": "^5.0.0",
     "tape": "^4.8.0"
   }
 }
