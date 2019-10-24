@@ -4,10 +4,12 @@
   "description": "Just a simple Javascript sandboxed environment for playing with toys in.",
   "main": "index.js",
   "scripts": {
+    "setup": "npm install --no-save option",
     "preversion": "npm test",
     "start": "nodemon index.js -q -x 'clear && babel-node'",
-    "test:watch": "nodemon -q -e js -x 'npm test -s | tap-spec'",
-    "test": "tape -r @babel/register 'test/**/*.js'"
+    "lint": "eslint .",
+    "test:watch": "nodemon -q -e js -x 'npm test -s'",
+    "test": "tape -r @babel/register 'test/**/*.js' | tap-spec"
   },
   "repository": {
     "type": "git",

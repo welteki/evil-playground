@@ -5,6 +5,7 @@ module.exports = {
   },
   "extends": "eslint:recommended",
   "parserOptions": {
+    "ecmaVersion": 2018,
     "sourceType": "module"
   },
   "rules": {
@@ -16,8 +17,7 @@ module.exports = {
     "curly": [ "error", "all" ],
     "eqeqeq": [ "error", "always" ],
     "func-call-spacing": [ "error", "never" ],
-    "indent": [ "error", 2 ],
-    "keyword-spacing": [ "error" ],
+    "indent": [ "error", 2, { "SwitchCase": 1 } ],
     "linebreak-style": [ "error", "unix" ],
     "max-len": [ "error" ],
     "no-else-return": [ "error" ],
