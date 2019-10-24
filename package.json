@@ -1,6 +1,6 @@
 {
-  "name": "evil-playground",
-  "version": "0.2.0",
+  "name": "welteki-playground",
+  "version": "0.1.0",
   "description": "Just a simple Javascript sandboxed environment for playing with toys in.",
   "main": "index.js",
   "scripts": {
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evilsoft/evil-playground.git"
+    "url": "git+https://github.com/welteki/welteki-playground.git"
   },
-  "author": "Ian Hofmann-Hicks (evil)",
+  "author": "Han Verstraete (welteki)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/evilsoft/evil-playground/issues"
+    "url": "https://github.com/welteki/welteki-playground/issues"
   },
-  "homepage": "https://github.com/evilsoft/evil-playground#readme",
+  "homepage": "https://github.com/welteki/welteki-playground#readme",
   "dependencies": {
     "eslint": "^4.11.0",
     "eyes": "^0.1.8",
