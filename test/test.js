@@ -1,4 +1,4 @@
-const test = require('tape')
+import test from 'tape'
 
 test('smoke test', t => {
   t.plan(2)
