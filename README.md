@@ -51,7 +51,7 @@ $ npm run lint
 
 ##### One shot
 
-Run the following to check linting and run all your specs in one go, exiting
+Run the following to run all your specs in one go, exiting
 afterwards:
 
 ```
